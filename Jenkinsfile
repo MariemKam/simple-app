@@ -13,7 +13,7 @@ pipeline {
                  archiveArtifacts artifacts: 'target/*.war', onlyIfSuccessful: true
             }
         }
-        stage('Upload War To Nexus'){
+      /*  stage('Upload War To Nexus'){
             steps{   
                     
                     nexusArtifactUploader artifacts: [
@@ -31,7 +31,7 @@ pipeline {
                         repository: 'Sample_Test_Nexus_SNAP/', 
                         version: '3.0.0-SNAPSHOT'
                     }
-            }
+            }*/
         
     }
 }
