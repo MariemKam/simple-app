@@ -28,7 +28,7 @@ pipeline {
                         nexusUrl: 'localhost:8082/#admin/', 
                         nexusVersion: 'nexus3', 
                         protocol: 'http', 
-                        repository: 'http://localhost:8082/repository/Sample_Test_Nexus_SNAP/', 
+                        repository: 'Sample_Test_Nexus_SNAP/', 
                         version: '3.0.0-SNAPSHOT'
                     }
             }
